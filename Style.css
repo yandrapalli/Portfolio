@@ -1,0 +1,118 @@
+/* ===== BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+  text-align: center;
+  padding: 60px 15px 40px;
+  background: linear-gradient(180deg, #1e293b, #0f172a);
+}
+
+.profile {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #38bdf8;
+}
+header p {
+  color: #94a3b8;
+}
+.social a {
+  color: #38bdf8;
+  margin: 0 8px;
+  text-decoration: none;
+}
+.social a:hover {
+  color: #f8fafc;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  width: 85%;
+  max-width: 900px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 25px 30px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.1);
+}
+section h2 {
+  color: #38bdf8;
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+section p {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+/* ===== SKILLS ===== */
+.skill-tags span {
+  display: inline-block;
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 6px 14px;
+  margin: 6px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* ===== PROJECT & INTERNSHIP CARDS ===== */
+.card {
+  background: rgba(255, 255, 255, 0.07);
+  border-left: 4px solid #38bdf8;
+  padding: 15px 18px;
+  margin-top: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+.card h3 {
+  color: #f1f5f9;
+  margin-bottom: 6px;
+}
+.card p {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
+
+/* ===== CONTACT & FOOTER ===== */
+#contact a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+#contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 25px 0;
+  font-size: 0.85rem;
+  color: #64748b;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
